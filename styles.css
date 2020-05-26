@@ -1,0 +1,337 @@
+/*Import Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Anton|Gugi|Lato|Roboto|Sofia&display=swap");
+
+:root {
+  --light-gray: #2b3032a1;
+  --primary-color: #45ccb8;
+  --border: #2b303218;
+  --text-color: #ff686b;
+  --roboto: "Roboto",sans-serif;
+  --gugi: "Gugi",cursive;
+  --sofia: "Sofia",cursive;
+}
+
+.primary-color {
+  color: var(--light-gray);
+}
+
+.bg-primary-color {
+  background-color: var(--primary-color) !important;
+}
+
+.text-color {
+  color: var(--text-color);
+}
+
+.font-roboto {
+  font-family: var(--roboto);
+}
+
+.lightblue {
+  color: lightblue;
+}
+
+ /* header */
+ header {
+   background-color: var(--primary-color);
+   font-family: var(--roboto);
+ }
+
+ header .site-title {
+   font-family: var(--gugi);
+ }
+
+ .container .dropdown-toggle,
+ .container .dropdown-item {
+   font-size: 0.7em;
+ }
+
+ .header-links a{
+   font-size: 0.9em;
+   text-decoration: none;
+   color: white;
+ }
+
+ #grad1 {
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(red, yellow, green); /* Standard syntax (must be last) */
+}
+
+ .position-top {
+   position: absolute;
+   top: 50%;
+ }
+
+ .site-slider .site-btn .prev,
+ .site-slider .site-btn .next {
+   background-color: var(--primary-color);
+   padding: 1rem 1.5rem;
+   border-radius: 10rem;
+   color: white;
+   margin: 0 1rem;
+   opacity: 0;
+   transition: opacity 1s ease;
+ }
+
+ .site-slider:hover .slider-btn .prev,
+  .site-slider:hover .slider-btn .next {
+    opacity: 1;
+  }
+
+ .right-0 {
+   right: 0;
+ }
+
+ .slick-dots {
+   display: flex;
+   justify-content: center;
+   margin: 0;
+   padding: 1rem 0;
+   list-style-type: none;
+   position: absolute;
+   bottom: 0;
+   right: 50%;
+ }
+
+ .slick-dots li {
+   margin: 0 0.6rem;
+ }
+
+  .slick-dots button {
+    display: block;
+    width: .5rem;
+    height: 0.5rem;
+    padding: 0;
+    border: none;
+    background-color: white;
+    text-indent: -99999px;
+    border-radius: 100%;
+  }
+
+   .slick-dots li.slick-active button {
+     transform: scale(2.5);
+     box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.5);
+   }
+
+ /* Navigation Menu */
+ .navi {
+   margin-left: 700px;
+ }
+
+.navbar-nav .nav-link {
+  font-size: 0.9em;
+  color: var(--light-gray) !important;
+}
+
+.navbar-nav .nav-item .nav-link a {
+  padding: 0 1.3em;
+}
+
+.nav-link a:hover {
+  color: #fff;
+}
+
+.navbar-nav .basket-icon {
+  margin-right: 6.5rem !important;
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+.fakeimg {
+  height: 350px;
+}
+
+.site-slider-two {
+  position: relative;
+  height: 30%;
+}
+
+.site-slider-two .product {
+  height: 25rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.site-slider-two .product img {
+  width: 90%;
+  margin: auto;
+}
+
+.site-btn.btn-span {
+  padding: 0.7rem 1.9rem;
+  border-radius: 4rem;
+  border: 1px solid var(--border);
+  background-color: white;
+  color: var(--light-gray);
+}
+
+.site-slider-two .slick-track .product :hover span{
+  background-color: var(--primary-color);
+}
+
+#caro {
+  padding: 1px 5%;
+}
+
+.fakeimg {
+  width: 100%;
+}
+
+.caro-img {
+  width: 100%;
+  height: 350px;
+}
+
+#feature {
+  padding: 4% 20%;
+  text-align: center;
+}
+
+.cancel {
+  text-decoration: line-through;
+  color: red;
+}
+
+.amount {
+  color: #45ccb8;
+}
+
+#items {
+  border: 2px solid #45ccb8;
+  box-sizing: content-box;
+  margin: 5px 10px;
+  padding: 3% 10%;
+}
+
+.item-img {
+  width: 100%;
+  height: 200px;
+}
+
+.colo {
+  text-align: center;
+  color: #000;
+}
+
+.colo: hover {
+  color: #fff;
+}
+
+.under {
+  color: #45ccb8;
+}
+
+.btn {
+  margin: 10px 0;
+}
+
+.pick img {
+  width: 100%;
+  height: 300px;
+}
+
+#deco {
+  padding: 3% 5%;
+}
+
+#deco img{
+  width: 100%;
+  height: 300px;
+}
+
+.cold {
+  position: relative;
+  padding: 0;
+  margin-top: 0;
+}
+
+.joy {
+  color: #f44336;
+  font-size: 3.5rem;
+  font-weight: bolder;
+}
+.buy {
+  color: #e0ac1c;
+  font-size: 3.5rem;
+  font-weight: bolder;
+}
+
+.mid-img {
+  width: 100%;
+  height: 350px;
+}
+
+.mini-img {
+  width: 100%;
+  height: 100px;
+  margin: 10px 0;
+}
+
+#checkout {
+  padding: 4% 5%;
+}
+
+.checked {
+  color: orange;
+}
+
+.pro {
+  padding: 3% 10%;
+}
+
+.prob {
+  padding: 4% 30%;
+  color: #45ccb8;
+}
+
+.anch {
+  color: #000;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+}
+
+.f-h6 {
+  color: #000;
+  text-align: center;
+}
+
+/* Footer section */
+#footer {
+  background-color: #45ccb8;
+  color: #fff;
+  bottom: 0;
+  padding: 2px 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media (max-height:800px) {
+  footer { position: static;}
+  header { padding-top: 40px;}
+}
+
+/* Here is the code for Responsive footer */
+/* You can remove below code if you dont want footer to be responsive */
+
+ @media (max-width:880px) {
+   #footer {
+     display: block;
+     width: 100%;
+     text-align: center;
+   }
+   #footer i {
+     margin-left: 0;
+   }
+ }
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
